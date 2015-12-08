@@ -1,0 +1,2750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CreateAcisHsf">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AcisData" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ParamName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ParamValue" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateAcisHsfResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CreateAcisHsfResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCADDataDownload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FileType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="acisString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCADDataDownloadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCADDataDownloadResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProENxDownload">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTextValues" type="tns:ArrayOfString" />
+            <s:element minOccurs="1" maxOccurs="1" name="IsNeed" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetProENxDownloadResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProENxDownloadResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProEUGTemplateName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProEUGTemplateNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProEUGTemplateNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFileOrFolder">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FilePath" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteFileOrFolderResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetMexType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="THType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMexTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMexTypeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPicPDFByType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="FileType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPicPDFByTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPicPDFByTypeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPic_ANum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPic_ANumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPic_ANumResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPic_A">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPic_AResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPic_AResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPic_AA">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetPic_AAResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetPic_AAResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAll">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClassAll">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetClassAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetClassAllResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModelTypeAll">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetModelTypeAllResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetModelTypeAllResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClassName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetClassNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetClassNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDatepinByType">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDatepinByTypeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDatepinByTypeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGeneralInfoByCondition">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ClassName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetGeneralInfoByConditionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGeneralInfoByConditionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBaseSizeHeader">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBaseSizeHeaderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBaseSizeHeaderResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHeaderLang">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="headerString" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetHeaderLangResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetHeaderLangResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBaseSizeOrReprocessData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="isBase" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBaseSizeOrReprocessDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetBaseSizeOrReprocessDataResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReprocessNames">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ReprocessTable" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReprocessNamesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetReprocessNamesResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUGProEParamterValue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="className" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUGProEParamterValueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUGProEParamterValueResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAcisData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAcisDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAcisDataResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddSecurityLog">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Actions" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Remarks" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddSecurityLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="AddSecurityLogResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetF_QTCAD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="FontId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetF_QTCADResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetF_QTCADResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetM_QTCAD">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Language" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetM_QTCADResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetM_QTCADResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetURLLink">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetURLLinkResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetURLLinkResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecialNum">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSpecialNumResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSpecialNumResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckIsCanBuild">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ModelType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckIsCanBuildResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CheckIsCanBuildResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSecurityLog">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSecurityLogResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSecurityLogResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteApplicationError">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Source" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StackTrace" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Region" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WriteApplicationErrorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WriteApplicationErrorResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnLanSize">
+        <s:complexType />
+      </s:element>
+      <s:element name="ReturnLanSizeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ReturnLanSizeResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Get3DViewVersion">
+        <s:complexType />
+      </s:element>
+      <s:element name="Get3DViewVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Get3DViewVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMenuVersion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MenuType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetMenuVersionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetMenuVersionResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArrayOfString" nillable="true" type="tns:ArrayOfString" />
+      <s:element name="int" type="s:int" />
+      <s:element name="boolean" type="s:boolean" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CreateAcisHsfSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateAcisHsf" />
+  </wsdl:message>
+  <wsdl:message name="CreateAcisHsfSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateAcisHsfResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCADDataDownloadSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCADDataDownload" />
+  </wsdl:message>
+  <wsdl:message name="GetCADDataDownloadSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCADDataDownloadResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProENxDownloadSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProENxDownload" />
+  </wsdl:message>
+  <wsdl:message name="GetProENxDownloadSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProENxDownloadResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProEUGTemplateNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProEUGTemplateName" />
+  </wsdl:message>
+  <wsdl:message name="GetProEUGTemplateNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProEUGTemplateNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileOrFolderSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteFileOrFolder" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileOrFolderSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteFileOrFolderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMexTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMexType" />
+  </wsdl:message>
+  <wsdl:message name="GetMexTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMexTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPicPDFByTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPicPDFByType" />
+  </wsdl:message>
+  <wsdl:message name="GetPicPDFByTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPicPDFByTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_ANumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetPic_ANum" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_ANumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetPic_ANumResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_ASoapIn">
+    <wsdl:part name="parameters" element="tns:GetPic_A" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_ASoapOut">
+    <wsdl:part name="parameters" element="tns:GetPic_AResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AASoapIn">
+    <wsdl:part name="parameters" element="tns:GetPic_AA" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AASoapOut">
+    <wsdl:part name="parameters" element="tns:GetPic_AAResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAll" />
+  </wsdl:message>
+  <wsdl:message name="GetAllSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetClassAllSoapIn">
+    <wsdl:part name="parameters" element="tns:GetClassAll" />
+  </wsdl:message>
+  <wsdl:message name="GetClassAllSoapOut">
+    <wsdl:part name="parameters" element="tns:GetClassAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetModelTypeAllSoapIn">
+    <wsdl:part name="parameters" element="tns:GetModelTypeAll" />
+  </wsdl:message>
+  <wsdl:message name="GetModelTypeAllSoapOut">
+    <wsdl:part name="parameters" element="tns:GetModelTypeAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetClassNameSoapIn">
+    <wsdl:part name="parameters" element="tns:GetClassName" />
+  </wsdl:message>
+  <wsdl:message name="GetClassNameSoapOut">
+    <wsdl:part name="parameters" element="tns:GetClassNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDatepinByTypeSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDatepinByType" />
+  </wsdl:message>
+  <wsdl:message name="GetDatepinByTypeSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDatepinByTypeResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetGeneralInfoByConditionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetGeneralInfoByCondition" />
+  </wsdl:message>
+  <wsdl:message name="GetGeneralInfoByConditionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetGeneralInfoByConditionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeHeaderSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBaseSizeHeader" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeHeaderSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBaseSizeHeaderResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetHeaderLangSoapIn">
+    <wsdl:part name="parameters" element="tns:GetHeaderLang" />
+  </wsdl:message>
+  <wsdl:message name="GetHeaderLangSoapOut">
+    <wsdl:part name="parameters" element="tns:GetHeaderLangResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeOrReprocessDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBaseSizeOrReprocessData" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeOrReprocessDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBaseSizeOrReprocessDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReprocessNamesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReprocessNames" />
+  </wsdl:message>
+  <wsdl:message name="GetReprocessNamesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReprocessNamesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUGProEParamterValueSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUGProEParamterValue" />
+  </wsdl:message>
+  <wsdl:message name="GetUGProEParamterValueSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUGProEParamterValueResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAcisDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAcisData" />
+  </wsdl:message>
+  <wsdl:message name="GetAcisDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAcisDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddSecurityLogSoapIn">
+    <wsdl:part name="parameters" element="tns:AddSecurityLog" />
+  </wsdl:message>
+  <wsdl:message name="AddSecurityLogSoapOut">
+    <wsdl:part name="parameters" element="tns:AddSecurityLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetF_QTCADSoapIn">
+    <wsdl:part name="parameters" element="tns:GetF_QTCAD" />
+  </wsdl:message>
+  <wsdl:message name="GetF_QTCADSoapOut">
+    <wsdl:part name="parameters" element="tns:GetF_QTCADResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetM_QTCADSoapIn">
+    <wsdl:part name="parameters" element="tns:GetM_QTCAD" />
+  </wsdl:message>
+  <wsdl:message name="GetM_QTCADSoapOut">
+    <wsdl:part name="parameters" element="tns:GetM_QTCADResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetURLLinkSoapIn">
+    <wsdl:part name="parameters" element="tns:GetURLLink" />
+  </wsdl:message>
+  <wsdl:message name="GetURLLinkSoapOut">
+    <wsdl:part name="parameters" element="tns:GetURLLinkResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecialNumSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSpecialNum" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecialNumSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSpecialNumResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsCanBuildSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckIsCanBuild" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsCanBuildSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckIsCanBuildResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSecurityLogSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSecurityLog" />
+  </wsdl:message>
+  <wsdl:message name="GetSecurityLogSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSecurityLogResponse" />
+  </wsdl:message>
+  <wsdl:message name="WriteApplicationErrorSoapIn">
+    <wsdl:part name="parameters" element="tns:WriteApplicationError" />
+  </wsdl:message>
+  <wsdl:message name="WriteApplicationErrorSoapOut">
+    <wsdl:part name="parameters" element="tns:WriteApplicationErrorResponse" />
+  </wsdl:message>
+  <wsdl:message name="ReturnLanSizeSoapIn">
+    <wsdl:part name="parameters" element="tns:ReturnLanSize" />
+  </wsdl:message>
+  <wsdl:message name="ReturnLanSizeSoapOut">
+    <wsdl:part name="parameters" element="tns:ReturnLanSizeResponse" />
+  </wsdl:message>
+  <wsdl:message name="Get3DViewVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:Get3DViewVersion" />
+  </wsdl:message>
+  <wsdl:message name="Get3DViewVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:Get3DViewVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetMenuVersionSoapIn">
+    <wsdl:part name="parameters" element="tns:GetMenuVersion" />
+  </wsdl:message>
+  <wsdl:message name="GetMenuVersionSoapOut">
+    <wsdl:part name="parameters" element="tns:GetMenuVersionResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateAcisHsfHttpGetIn">
+    <wsdl:part name="AcisData" type="s:string" />
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ParamName" type="s:string" />
+    <wsdl:part name="ParamValue" type="s:string" />
+    <wsdl:part name="UserName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateAcisHsfHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCADDataDownloadHttpGetIn">
+    <wsdl:part name="FileType" type="s:string" />
+    <wsdl:part name="FileName" type="s:string" />
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="acisString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCADDataDownloadHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetProEUGTemplateNameHttpGetIn">
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="fileType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetProEUGTemplateNameHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileOrFolderHttpGetIn">
+    <wsdl:part name="FilePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileOrFolderHttpGetOut" />
+  <wsdl:message name="GetMexTypeHttpGetIn">
+    <wsdl:part name="THType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMexTypeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPicPDFByTypeHttpGetIn">
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="FileType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPicPDFByTypeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_ANumHttpGetIn">
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_ANumHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AHttpGetIn">
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AAHttpGetIn">
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AAHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAllHttpGetIn" />
+  <wsdl:message name="GetAllHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetClassAllHttpGetIn" />
+  <wsdl:message name="GetClassAllHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetModelTypeAllHttpGetIn">
+    <wsdl:part name="ClassName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelTypeAllHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetClassNameHttpGetIn">
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetClassNameHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDatepinByTypeHttpGetIn">
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDatepinByTypeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetGeneralInfoByConditionHttpGetIn">
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetGeneralInfoByConditionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeHeaderHttpGetIn">
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeHeaderHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHeaderLangHttpGetIn">
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="headerString" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHeaderLangHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeOrReprocessDataHttpGetIn">
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="isBase" type="s:string" />
+    <wsdl:part name="language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeOrReprocessDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetReprocessNamesHttpGetIn">
+    <wsdl:part name="ReprocessTable" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReprocessNamesHttpGetOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetUGProEParamterValueHttpGetIn">
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUGProEParamterValueHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAcisDataHttpGetIn">
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAcisDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddSecurityLogHttpGetIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="Region" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Actions" type="s:string" />
+    <wsdl:part name="Remarks" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddSecurityLogHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetF_QTCADHttpGetIn">
+    <wsdl:part name="FontId" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetF_QTCADHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetM_QTCADHttpGetIn">
+    <wsdl:part name="Region" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetM_QTCADHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetURLLinkHttpGetIn">
+    <wsdl:part name="Region" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetURLLinkHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecialNumHttpGetIn">
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Region" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecialNumHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsCanBuildHttpGetIn">
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsCanBuildHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetSecurityLogHttpGetIn" />
+  <wsdl:message name="GetSecurityLogHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="WriteApplicationErrorHttpGetIn">
+    <wsdl:part name="Message" type="s:string" />
+    <wsdl:part name="Source" type="s:string" />
+    <wsdl:part name="StackTrace" type="s:string" />
+    <wsdl:part name="Region" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WriteApplicationErrorHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ReturnLanSizeHttpGetIn" />
+  <wsdl:message name="ReturnLanSizeHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="Get3DViewVersionHttpGetIn" />
+  <wsdl:message name="Get3DViewVersionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMenuVersionHttpGetIn">
+    <wsdl:part name="MenuType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMenuVersionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateAcisHsfHttpPostIn">
+    <wsdl:part name="AcisData" type="s:string" />
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ParamName" type="s:string" />
+    <wsdl:part name="ParamValue" type="s:string" />
+    <wsdl:part name="UserName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CreateAcisHsfHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCADDataDownloadHttpPostIn">
+    <wsdl:part name="FileType" type="s:string" />
+    <wsdl:part name="FileName" type="s:string" />
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="acisString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCADDataDownloadHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetProEUGTemplateNameHttpPostIn">
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="fileType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetProEUGTemplateNameHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileOrFolderHttpPostIn">
+    <wsdl:part name="FilePath" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="DeleteFileOrFolderHttpPostOut" />
+  <wsdl:message name="GetMexTypeHttpPostIn">
+    <wsdl:part name="THType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMexTypeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPicPDFByTypeHttpPostIn">
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="FileType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPicPDFByTypeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_ANumHttpPostIn">
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_ANumHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AHttpPostIn">
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AAHttpPostIn">
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetPic_AAHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAllHttpPostIn" />
+  <wsdl:message name="GetAllHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetClassAllHttpPostIn" />
+  <wsdl:message name="GetClassAllHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="GetModelTypeAllHttpPostIn">
+    <wsdl:part name="ClassName" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetModelTypeAllHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetClassNameHttpPostIn">
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetClassNameHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDatepinByTypeHttpPostIn">
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetDatepinByTypeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetGeneralInfoByConditionHttpPostIn">
+    <wsdl:part name="ClassName" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetGeneralInfoByConditionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeHeaderHttpPostIn">
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeHeaderHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHeaderLangHttpPostIn">
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="headerString" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetHeaderLangHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeOrReprocessDataHttpPostIn">
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="isBase" type="s:string" />
+    <wsdl:part name="language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetBaseSizeOrReprocessDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetReprocessNamesHttpPostIn">
+    <wsdl:part name="ReprocessTable" type="s:string" />
+    <wsdl:part name="className" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetReprocessNamesHttpPostOut">
+    <wsdl:part name="Body" element="tns:ArrayOfString" />
+  </wsdl:message>
+  <wsdl:message name="GetUGProEParamterValueHttpPostIn">
+    <wsdl:part name="className" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetUGProEParamterValueHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAcisDataHttpPostIn">
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAcisDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="AddSecurityLogHttpPostIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="Region" type="s:string" />
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Actions" type="s:string" />
+    <wsdl:part name="Remarks" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="AddSecurityLogHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="GetF_QTCADHttpPostIn">
+    <wsdl:part name="FontId" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetF_QTCADHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetM_QTCADHttpPostIn">
+    <wsdl:part name="Region" type="s:string" />
+    <wsdl:part name="Language" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetM_QTCADHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetURLLinkHttpPostIn">
+    <wsdl:part name="Region" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetURLLinkHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecialNumHttpPostIn">
+    <wsdl:part name="ModelType" type="s:string" />
+    <wsdl:part name="Region" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetSpecialNumHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsCanBuildHttpPostIn">
+    <wsdl:part name="ModelType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CheckIsCanBuildHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="GetSecurityLogHttpPostIn" />
+  <wsdl:message name="GetSecurityLogHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="WriteApplicationErrorHttpPostIn">
+    <wsdl:part name="Message" type="s:string" />
+    <wsdl:part name="Source" type="s:string" />
+    <wsdl:part name="StackTrace" type="s:string" />
+    <wsdl:part name="Region" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WriteApplicationErrorHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ReturnLanSizeHttpPostIn" />
+  <wsdl:message name="ReturnLanSizeHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="Get3DViewVersionHttpPostIn" />
+  <wsdl:message name="Get3DViewVersionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMenuVersionHttpPostIn">
+    <wsdl:part name="MenuType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetMenuVersionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="MisumiWebServiceSoap">
+    <wsdl:operation name="CreateAcisHsf">
+      <wsdl:input message="tns:CreateAcisHsfSoapIn" />
+      <wsdl:output message="tns:CreateAcisHsfSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCADDataDownload">
+      <wsdl:input message="tns:GetCADDataDownloadSoapIn" />
+      <wsdl:output message="tns:GetCADDataDownloadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProENxDownload">
+      <wsdl:input message="tns:GetProENxDownloadSoapIn" />
+      <wsdl:output message="tns:GetProENxDownloadSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProEUGTemplateName">
+      <wsdl:input message="tns:GetProEUGTemplateNameSoapIn" />
+      <wsdl:output message="tns:GetProEUGTemplateNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFileOrFolder">
+      <wsdl:input message="tns:DeleteFileOrFolderSoapIn" />
+      <wsdl:output message="tns:DeleteFileOrFolderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMexType">
+      <wsdl:input message="tns:GetMexTypeSoapIn" />
+      <wsdl:output message="tns:GetMexTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPicPDFByType">
+      <wsdl:input message="tns:GetPicPDFByTypeSoapIn" />
+      <wsdl:output message="tns:GetPicPDFByTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_ANum">
+      <wsdl:input message="tns:GetPic_ANumSoapIn" />
+      <wsdl:output message="tns:GetPic_ANumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_A">
+      <wsdl:input message="tns:GetPic_ASoapIn" />
+      <wsdl:output message="tns:GetPic_ASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_AA">
+      <wsdl:input message="tns:GetPic_AASoapIn" />
+      <wsdl:output message="tns:GetPic_AASoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <wsdl:input message="tns:GetAllSoapIn" />
+      <wsdl:output message="tns:GetAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClassAll">
+      <wsdl:input message="tns:GetClassAllSoapIn" />
+      <wsdl:output message="tns:GetClassAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelTypeAll">
+      <wsdl:input message="tns:GetModelTypeAllSoapIn" />
+      <wsdl:output message="tns:GetModelTypeAllSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClassName">
+      <wsdl:input message="tns:GetClassNameSoapIn" />
+      <wsdl:output message="tns:GetClassNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDatepinByType">
+      <wsdl:input message="tns:GetDatepinByTypeSoapIn" />
+      <wsdl:output message="tns:GetDatepinByTypeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralInfoByCondition">
+      <wsdl:input message="tns:GetGeneralInfoByConditionSoapIn" />
+      <wsdl:output message="tns:GetGeneralInfoByConditionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeHeader">
+      <wsdl:input message="tns:GetBaseSizeHeaderSoapIn" />
+      <wsdl:output message="tns:GetBaseSizeHeaderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHeaderLang">
+      <wsdl:input message="tns:GetHeaderLangSoapIn" />
+      <wsdl:output message="tns:GetHeaderLangSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeOrReprocessData">
+      <wsdl:input message="tns:GetBaseSizeOrReprocessDataSoapIn" />
+      <wsdl:output message="tns:GetBaseSizeOrReprocessDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReprocessNames">
+      <wsdl:input message="tns:GetReprocessNamesSoapIn" />
+      <wsdl:output message="tns:GetReprocessNamesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUGProEParamterValue">
+      <wsdl:input message="tns:GetUGProEParamterValueSoapIn" />
+      <wsdl:output message="tns:GetUGProEParamterValueSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcisData">
+      <wsdl:input message="tns:GetAcisDataSoapIn" />
+      <wsdl:output message="tns:GetAcisDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSecurityLog">
+      <wsdl:input message="tns:AddSecurityLogSoapIn" />
+      <wsdl:output message="tns:AddSecurityLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetF_QTCAD">
+      <wsdl:input message="tns:GetF_QTCADSoapIn" />
+      <wsdl:output message="tns:GetF_QTCADSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetM_QTCAD">
+      <wsdl:input message="tns:GetM_QTCADSoapIn" />
+      <wsdl:output message="tns:GetM_QTCADSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetURLLink">
+      <wsdl:input message="tns:GetURLLinkSoapIn" />
+      <wsdl:output message="tns:GetURLLinkSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialNum">
+      <wsdl:input message="tns:GetSpecialNumSoapIn" />
+      <wsdl:output message="tns:GetSpecialNumSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsCanBuild">
+      <wsdl:input message="tns:CheckIsCanBuildSoapIn" />
+      <wsdl:output message="tns:CheckIsCanBuildSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityLog">
+      <wsdl:input message="tns:GetSecurityLogSoapIn" />
+      <wsdl:output message="tns:GetSecurityLogSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteApplicationError">
+      <wsdl:input message="tns:WriteApplicationErrorSoapIn" />
+      <wsdl:output message="tns:WriteApplicationErrorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnLanSize">
+      <wsdl:input message="tns:ReturnLanSizeSoapIn" />
+      <wsdl:output message="tns:ReturnLanSizeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get3DViewVersion">
+      <wsdl:input message="tns:Get3DViewVersionSoapIn" />
+      <wsdl:output message="tns:Get3DViewVersionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMenuVersion">
+      <wsdl:input message="tns:GetMenuVersionSoapIn" />
+      <wsdl:output message="tns:GetMenuVersionSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MisumiWebServiceHttpGet">
+    <wsdl:operation name="CreateAcisHsf">
+      <wsdl:input message="tns:CreateAcisHsfHttpGetIn" />
+      <wsdl:output message="tns:CreateAcisHsfHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCADDataDownload">
+      <wsdl:input message="tns:GetCADDataDownloadHttpGetIn" />
+      <wsdl:output message="tns:GetCADDataDownloadHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProEUGTemplateName">
+      <wsdl:input message="tns:GetProEUGTemplateNameHttpGetIn" />
+      <wsdl:output message="tns:GetProEUGTemplateNameHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFileOrFolder">
+      <wsdl:input message="tns:DeleteFileOrFolderHttpGetIn" />
+      <wsdl:output message="tns:DeleteFileOrFolderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMexType">
+      <wsdl:input message="tns:GetMexTypeHttpGetIn" />
+      <wsdl:output message="tns:GetMexTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPicPDFByType">
+      <wsdl:input message="tns:GetPicPDFByTypeHttpGetIn" />
+      <wsdl:output message="tns:GetPicPDFByTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_ANum">
+      <wsdl:input message="tns:GetPic_ANumHttpGetIn" />
+      <wsdl:output message="tns:GetPic_ANumHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_A">
+      <wsdl:input message="tns:GetPic_AHttpGetIn" />
+      <wsdl:output message="tns:GetPic_AHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_AA">
+      <wsdl:input message="tns:GetPic_AAHttpGetIn" />
+      <wsdl:output message="tns:GetPic_AAHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <wsdl:input message="tns:GetAllHttpGetIn" />
+      <wsdl:output message="tns:GetAllHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClassAll">
+      <wsdl:input message="tns:GetClassAllHttpGetIn" />
+      <wsdl:output message="tns:GetClassAllHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelTypeAll">
+      <wsdl:input message="tns:GetModelTypeAllHttpGetIn" />
+      <wsdl:output message="tns:GetModelTypeAllHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClassName">
+      <wsdl:input message="tns:GetClassNameHttpGetIn" />
+      <wsdl:output message="tns:GetClassNameHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDatepinByType">
+      <wsdl:input message="tns:GetDatepinByTypeHttpGetIn" />
+      <wsdl:output message="tns:GetDatepinByTypeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralInfoByCondition">
+      <wsdl:input message="tns:GetGeneralInfoByConditionHttpGetIn" />
+      <wsdl:output message="tns:GetGeneralInfoByConditionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeHeader">
+      <wsdl:input message="tns:GetBaseSizeHeaderHttpGetIn" />
+      <wsdl:output message="tns:GetBaseSizeHeaderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHeaderLang">
+      <wsdl:input message="tns:GetHeaderLangHttpGetIn" />
+      <wsdl:output message="tns:GetHeaderLangHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeOrReprocessData">
+      <wsdl:input message="tns:GetBaseSizeOrReprocessDataHttpGetIn" />
+      <wsdl:output message="tns:GetBaseSizeOrReprocessDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReprocessNames">
+      <wsdl:input message="tns:GetReprocessNamesHttpGetIn" />
+      <wsdl:output message="tns:GetReprocessNamesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUGProEParamterValue">
+      <wsdl:input message="tns:GetUGProEParamterValueHttpGetIn" />
+      <wsdl:output message="tns:GetUGProEParamterValueHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcisData">
+      <wsdl:input message="tns:GetAcisDataHttpGetIn" />
+      <wsdl:output message="tns:GetAcisDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSecurityLog">
+      <wsdl:input message="tns:AddSecurityLogHttpGetIn" />
+      <wsdl:output message="tns:AddSecurityLogHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetF_QTCAD">
+      <wsdl:input message="tns:GetF_QTCADHttpGetIn" />
+      <wsdl:output message="tns:GetF_QTCADHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetM_QTCAD">
+      <wsdl:input message="tns:GetM_QTCADHttpGetIn" />
+      <wsdl:output message="tns:GetM_QTCADHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetURLLink">
+      <wsdl:input message="tns:GetURLLinkHttpGetIn" />
+      <wsdl:output message="tns:GetURLLinkHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialNum">
+      <wsdl:input message="tns:GetSpecialNumHttpGetIn" />
+      <wsdl:output message="tns:GetSpecialNumHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsCanBuild">
+      <wsdl:input message="tns:CheckIsCanBuildHttpGetIn" />
+      <wsdl:output message="tns:CheckIsCanBuildHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityLog">
+      <wsdl:input message="tns:GetSecurityLogHttpGetIn" />
+      <wsdl:output message="tns:GetSecurityLogHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteApplicationError">
+      <wsdl:input message="tns:WriteApplicationErrorHttpGetIn" />
+      <wsdl:output message="tns:WriteApplicationErrorHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnLanSize">
+      <wsdl:input message="tns:ReturnLanSizeHttpGetIn" />
+      <wsdl:output message="tns:ReturnLanSizeHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get3DViewVersion">
+      <wsdl:input message="tns:Get3DViewVersionHttpGetIn" />
+      <wsdl:output message="tns:Get3DViewVersionHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMenuVersion">
+      <wsdl:input message="tns:GetMenuVersionHttpGetIn" />
+      <wsdl:output message="tns:GetMenuVersionHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MisumiWebServiceHttpPost">
+    <wsdl:operation name="CreateAcisHsf">
+      <wsdl:input message="tns:CreateAcisHsfHttpPostIn" />
+      <wsdl:output message="tns:CreateAcisHsfHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCADDataDownload">
+      <wsdl:input message="tns:GetCADDataDownloadHttpPostIn" />
+      <wsdl:output message="tns:GetCADDataDownloadHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProEUGTemplateName">
+      <wsdl:input message="tns:GetProEUGTemplateNameHttpPostIn" />
+      <wsdl:output message="tns:GetProEUGTemplateNameHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFileOrFolder">
+      <wsdl:input message="tns:DeleteFileOrFolderHttpPostIn" />
+      <wsdl:output message="tns:DeleteFileOrFolderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMexType">
+      <wsdl:input message="tns:GetMexTypeHttpPostIn" />
+      <wsdl:output message="tns:GetMexTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPicPDFByType">
+      <wsdl:input message="tns:GetPicPDFByTypeHttpPostIn" />
+      <wsdl:output message="tns:GetPicPDFByTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_ANum">
+      <wsdl:input message="tns:GetPic_ANumHttpPostIn" />
+      <wsdl:output message="tns:GetPic_ANumHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_A">
+      <wsdl:input message="tns:GetPic_AHttpPostIn" />
+      <wsdl:output message="tns:GetPic_AHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_AA">
+      <wsdl:input message="tns:GetPic_AAHttpPostIn" />
+      <wsdl:output message="tns:GetPic_AAHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <wsdl:input message="tns:GetAllHttpPostIn" />
+      <wsdl:output message="tns:GetAllHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClassAll">
+      <wsdl:input message="tns:GetClassAllHttpPostIn" />
+      <wsdl:output message="tns:GetClassAllHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetModelTypeAll">
+      <wsdl:input message="tns:GetModelTypeAllHttpPostIn" />
+      <wsdl:output message="tns:GetModelTypeAllHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClassName">
+      <wsdl:input message="tns:GetClassNameHttpPostIn" />
+      <wsdl:output message="tns:GetClassNameHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDatepinByType">
+      <wsdl:input message="tns:GetDatepinByTypeHttpPostIn" />
+      <wsdl:output message="tns:GetDatepinByTypeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralInfoByCondition">
+      <wsdl:input message="tns:GetGeneralInfoByConditionHttpPostIn" />
+      <wsdl:output message="tns:GetGeneralInfoByConditionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeHeader">
+      <wsdl:input message="tns:GetBaseSizeHeaderHttpPostIn" />
+      <wsdl:output message="tns:GetBaseSizeHeaderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetHeaderLang">
+      <wsdl:input message="tns:GetHeaderLangHttpPostIn" />
+      <wsdl:output message="tns:GetHeaderLangHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeOrReprocessData">
+      <wsdl:input message="tns:GetBaseSizeOrReprocessDataHttpPostIn" />
+      <wsdl:output message="tns:GetBaseSizeOrReprocessDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReprocessNames">
+      <wsdl:input message="tns:GetReprocessNamesHttpPostIn" />
+      <wsdl:output message="tns:GetReprocessNamesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUGProEParamterValue">
+      <wsdl:input message="tns:GetUGProEParamterValueHttpPostIn" />
+      <wsdl:output message="tns:GetUGProEParamterValueHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAcisData">
+      <wsdl:input message="tns:GetAcisDataHttpPostIn" />
+      <wsdl:output message="tns:GetAcisDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSecurityLog">
+      <wsdl:input message="tns:AddSecurityLogHttpPostIn" />
+      <wsdl:output message="tns:AddSecurityLogHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetF_QTCAD">
+      <wsdl:input message="tns:GetF_QTCADHttpPostIn" />
+      <wsdl:output message="tns:GetF_QTCADHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetM_QTCAD">
+      <wsdl:input message="tns:GetM_QTCADHttpPostIn" />
+      <wsdl:output message="tns:GetM_QTCADHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetURLLink">
+      <wsdl:input message="tns:GetURLLinkHttpPostIn" />
+      <wsdl:output message="tns:GetURLLinkHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialNum">
+      <wsdl:input message="tns:GetSpecialNumHttpPostIn" />
+      <wsdl:output message="tns:GetSpecialNumHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsCanBuild">
+      <wsdl:input message="tns:CheckIsCanBuildHttpPostIn" />
+      <wsdl:output message="tns:CheckIsCanBuildHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityLog">
+      <wsdl:input message="tns:GetSecurityLogHttpPostIn" />
+      <wsdl:output message="tns:GetSecurityLogHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WriteApplicationError">
+      <wsdl:input message="tns:WriteApplicationErrorHttpPostIn" />
+      <wsdl:output message="tns:WriteApplicationErrorHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ReturnLanSize">
+      <wsdl:input message="tns:ReturnLanSizeHttpPostIn" />
+      <wsdl:output message="tns:ReturnLanSizeHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Get3DViewVersion">
+      <wsdl:input message="tns:Get3DViewVersionHttpPostIn" />
+      <wsdl:output message="tns:Get3DViewVersionHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMenuVersion">
+      <wsdl:input message="tns:GetMenuVersionHttpPostIn" />
+      <wsdl:output message="tns:GetMenuVersionHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MisumiWebServiceSoap" type="tns:MisumiWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateAcisHsf">
+      <soap:operation soapAction="http://tempuri.org/CreateAcisHsf" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCADDataDownload">
+      <soap:operation soapAction="http://tempuri.org/GetCADDataDownload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProENxDownload">
+      <soap:operation soapAction="http://tempuri.org/GetProENxDownload" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProEUGTemplateName">
+      <soap:operation soapAction="http://tempuri.org/GetProEUGTemplateName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFileOrFolder">
+      <soap:operation soapAction="http://tempuri.org/DeleteFileOrFolder" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMexType">
+      <soap:operation soapAction="http://tempuri.org/GetMexType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPicPDFByType">
+      <soap:operation soapAction="http://tempuri.org/GetPicPDFByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_ANum">
+      <soap:operation soapAction="http://tempuri.org/GetPic_ANum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_A">
+      <soap:operation soapAction="http://tempuri.org/GetPic_A" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_AA">
+      <soap:operation soapAction="http://tempuri.org/GetPic_AA" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <soap:operation soapAction="http://tempuri.org/GetAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClassAll">
+      <soap:operation soapAction="http://tempuri.org/GetClassAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelTypeAll">
+      <soap:operation soapAction="http://tempuri.org/GetModelTypeAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClassName">
+      <soap:operation soapAction="http://tempuri.org/GetClassName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatepinByType">
+      <soap:operation soapAction="http://tempuri.org/GetDatepinByType" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralInfoByCondition">
+      <soap:operation soapAction="http://tempuri.org/GetGeneralInfoByCondition" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeHeader">
+      <soap:operation soapAction="http://tempuri.org/GetBaseSizeHeader" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeaderLang">
+      <soap:operation soapAction="http://tempuri.org/GetHeaderLang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeOrReprocessData">
+      <soap:operation soapAction="http://tempuri.org/GetBaseSizeOrReprocessData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReprocessNames">
+      <soap:operation soapAction="http://tempuri.org/GetReprocessNames" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUGProEParamterValue">
+      <soap:operation soapAction="http://tempuri.org/GetUGProEParamterValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcisData">
+      <soap:operation soapAction="http://tempuri.org/GetAcisData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSecurityLog">
+      <soap:operation soapAction="http://tempuri.org/AddSecurityLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetF_QTCAD">
+      <soap:operation soapAction="http://tempuri.org/GetF_QTCAD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetM_QTCAD">
+      <soap:operation soapAction="http://tempuri.org/GetM_QTCAD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetURLLink">
+      <soap:operation soapAction="http://tempuri.org/GetURLLink" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialNum">
+      <soap:operation soapAction="http://tempuri.org/GetSpecialNum" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsCanBuild">
+      <soap:operation soapAction="http://tempuri.org/CheckIsCanBuild" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityLog">
+      <soap:operation soapAction="http://tempuri.org/GetSecurityLog" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteApplicationError">
+      <soap:operation soapAction="http://tempuri.org/WriteApplicationError" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnLanSize">
+      <soap:operation soapAction="http://tempuri.org/ReturnLanSize" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get3DViewVersion">
+      <soap:operation soapAction="http://tempuri.org/Get3DViewVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMenuVersion">
+      <soap:operation soapAction="http://tempuri.org/GetMenuVersion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MisumiWebServiceSoap12" type="tns:MisumiWebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateAcisHsf">
+      <soap12:operation soapAction="http://tempuri.org/CreateAcisHsf" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCADDataDownload">
+      <soap12:operation soapAction="http://tempuri.org/GetCADDataDownload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProENxDownload">
+      <soap12:operation soapAction="http://tempuri.org/GetProENxDownload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProEUGTemplateName">
+      <soap12:operation soapAction="http://tempuri.org/GetProEUGTemplateName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFileOrFolder">
+      <soap12:operation soapAction="http://tempuri.org/DeleteFileOrFolder" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMexType">
+      <soap12:operation soapAction="http://tempuri.org/GetMexType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPicPDFByType">
+      <soap12:operation soapAction="http://tempuri.org/GetPicPDFByType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_ANum">
+      <soap12:operation soapAction="http://tempuri.org/GetPic_ANum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_A">
+      <soap12:operation soapAction="http://tempuri.org/GetPic_A" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_AA">
+      <soap12:operation soapAction="http://tempuri.org/GetPic_AA" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <soap12:operation soapAction="http://tempuri.org/GetAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClassAll">
+      <soap12:operation soapAction="http://tempuri.org/GetClassAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelTypeAll">
+      <soap12:operation soapAction="http://tempuri.org/GetModelTypeAll" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClassName">
+      <soap12:operation soapAction="http://tempuri.org/GetClassName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatepinByType">
+      <soap12:operation soapAction="http://tempuri.org/GetDatepinByType" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralInfoByCondition">
+      <soap12:operation soapAction="http://tempuri.org/GetGeneralInfoByCondition" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeHeader">
+      <soap12:operation soapAction="http://tempuri.org/GetBaseSizeHeader" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeaderLang">
+      <soap12:operation soapAction="http://tempuri.org/GetHeaderLang" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeOrReprocessData">
+      <soap12:operation soapAction="http://tempuri.org/GetBaseSizeOrReprocessData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReprocessNames">
+      <soap12:operation soapAction="http://tempuri.org/GetReprocessNames" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUGProEParamterValue">
+      <soap12:operation soapAction="http://tempuri.org/GetUGProEParamterValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcisData">
+      <soap12:operation soapAction="http://tempuri.org/GetAcisData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSecurityLog">
+      <soap12:operation soapAction="http://tempuri.org/AddSecurityLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetF_QTCAD">
+      <soap12:operation soapAction="http://tempuri.org/GetF_QTCAD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetM_QTCAD">
+      <soap12:operation soapAction="http://tempuri.org/GetM_QTCAD" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetURLLink">
+      <soap12:operation soapAction="http://tempuri.org/GetURLLink" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialNum">
+      <soap12:operation soapAction="http://tempuri.org/GetSpecialNum" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsCanBuild">
+      <soap12:operation soapAction="http://tempuri.org/CheckIsCanBuild" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityLog">
+      <soap12:operation soapAction="http://tempuri.org/GetSecurityLog" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteApplicationError">
+      <soap12:operation soapAction="http://tempuri.org/WriteApplicationError" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnLanSize">
+      <soap12:operation soapAction="http://tempuri.org/ReturnLanSize" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get3DViewVersion">
+      <soap12:operation soapAction="http://tempuri.org/Get3DViewVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMenuVersion">
+      <soap12:operation soapAction="http://tempuri.org/GetMenuVersion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MisumiWebServiceHttpGet" type="tns:MisumiWebServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="CreateAcisHsf">
+      <http:operation location="/CreateAcisHsf" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCADDataDownload">
+      <http:operation location="/GetCADDataDownload" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProEUGTemplateName">
+      <http:operation location="/GetProEUGTemplateName" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFileOrFolder">
+      <http:operation location="/DeleteFileOrFolder" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="GetMexType">
+      <http:operation location="/GetMexType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPicPDFByType">
+      <http:operation location="/GetPicPDFByType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_ANum">
+      <http:operation location="/GetPic_ANum" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_A">
+      <http:operation location="/GetPic_A" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_AA">
+      <http:operation location="/GetPic_AA" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <http:operation location="/GetAll" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClassAll">
+      <http:operation location="/GetClassAll" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelTypeAll">
+      <http:operation location="/GetModelTypeAll" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClassName">
+      <http:operation location="/GetClassName" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatepinByType">
+      <http:operation location="/GetDatepinByType" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralInfoByCondition">
+      <http:operation location="/GetGeneralInfoByCondition" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeHeader">
+      <http:operation location="/GetBaseSizeHeader" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeaderLang">
+      <http:operation location="/GetHeaderLang" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeOrReprocessData">
+      <http:operation location="/GetBaseSizeOrReprocessData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReprocessNames">
+      <http:operation location="/GetReprocessNames" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUGProEParamterValue">
+      <http:operation location="/GetUGProEParamterValue" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcisData">
+      <http:operation location="/GetAcisData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSecurityLog">
+      <http:operation location="/AddSecurityLog" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetF_QTCAD">
+      <http:operation location="/GetF_QTCAD" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetM_QTCAD">
+      <http:operation location="/GetM_QTCAD" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetURLLink">
+      <http:operation location="/GetURLLink" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialNum">
+      <http:operation location="/GetSpecialNum" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsCanBuild">
+      <http:operation location="/CheckIsCanBuild" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityLog">
+      <http:operation location="/GetSecurityLog" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteApplicationError">
+      <http:operation location="/WriteApplicationError" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnLanSize">
+      <http:operation location="/ReturnLanSize" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get3DViewVersion">
+      <http:operation location="/Get3DViewVersion" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMenuVersion">
+      <http:operation location="/GetMenuVersion" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MisumiWebServiceHttpPost" type="tns:MisumiWebServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="CreateAcisHsf">
+      <http:operation location="/CreateAcisHsf" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCADDataDownload">
+      <http:operation location="/GetCADDataDownload" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProEUGTemplateName">
+      <http:operation location="/GetProEUGTemplateName" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteFileOrFolder">
+      <http:operation location="/DeleteFileOrFolder" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output />
+    </wsdl:operation>
+    <wsdl:operation name="GetMexType">
+      <http:operation location="/GetMexType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPicPDFByType">
+      <http:operation location="/GetPicPDFByType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_ANum">
+      <http:operation location="/GetPic_ANum" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_A">
+      <http:operation location="/GetPic_A" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetPic_AA">
+      <http:operation location="/GetPic_AA" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAll">
+      <http:operation location="/GetAll" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClassAll">
+      <http:operation location="/GetClassAll" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetModelTypeAll">
+      <http:operation location="/GetModelTypeAll" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClassName">
+      <http:operation location="/GetClassName" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDatepinByType">
+      <http:operation location="/GetDatepinByType" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetGeneralInfoByCondition">
+      <http:operation location="/GetGeneralInfoByCondition" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeHeader">
+      <http:operation location="/GetBaseSizeHeader" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetHeaderLang">
+      <http:operation location="/GetHeaderLang" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBaseSizeOrReprocessData">
+      <http:operation location="/GetBaseSizeOrReprocessData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReprocessNames">
+      <http:operation location="/GetReprocessNames" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUGProEParamterValue">
+      <http:operation location="/GetUGProEParamterValue" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAcisData">
+      <http:operation location="/GetAcisData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSecurityLog">
+      <http:operation location="/AddSecurityLog" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetF_QTCAD">
+      <http:operation location="/GetF_QTCAD" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetM_QTCAD">
+      <http:operation location="/GetM_QTCAD" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetURLLink">
+      <http:operation location="/GetURLLink" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSpecialNum">
+      <http:operation location="/GetSpecialNum" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckIsCanBuild">
+      <http:operation location="/CheckIsCanBuild" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSecurityLog">
+      <http:operation location="/GetSecurityLog" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WriteApplicationError">
+      <http:operation location="/WriteApplicationError" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReturnLanSize">
+      <http:operation location="/ReturnLanSize" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Get3DViewVersion">
+      <http:operation location="/Get3DViewVersion" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMenuVersion">
+      <http:operation location="/GetMenuVersion" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MisumiWebService">
+    <wsdl:port name="MisumiWebServiceSoap" binding="tns:MisumiWebServiceSoap">
+      <soap:address location="http://mex.misumi-ec.com/mex/STG/GMW/GMWService/MisumiWebservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MisumiWebServiceSoap12" binding="tns:MisumiWebServiceSoap12">
+      <soap12:address location="http://mex.misumi-ec.com/mex/STG/GMW/GMWService/MisumiWebservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MisumiWebServiceHttpGet" binding="tns:MisumiWebServiceHttpGet">
+      <http:address location="http://mex.misumi-ec.com/mex/STG/GMW/GMWService/MisumiWebservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MisumiWebServiceHttpPost" binding="tns:MisumiWebServiceHttpPost">
+      <http:address location="http://mex.misumi-ec.com/mex/STG/GMW/GMWService/MisumiWebservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

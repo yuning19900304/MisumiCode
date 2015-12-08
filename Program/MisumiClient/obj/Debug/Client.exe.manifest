@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="Client.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Client" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Client.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.Hoops3dStreamLib.dll" size="57344">
+      <assemblyIdentity name="AxInterop.Hoops3dStreamLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>1gqRaDSTyRnBcTvcy4i+nGbiog4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.MisumiInterfaceMold_JapLib.dll" size="6144">
+      <assemblyIdentity name="AxInterop.MisumiInterfaceMold_JapLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>HNPmAIV2c4dMw2e/xHc1Mlp6ih0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Client.exe" size="153600">
+      <assemblyIdentity name="Client" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>l2IDN4vzZqaQRPshURUSksFP0tY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="200704">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="0.86.0.518" publicKeyToken="1B03E6ACF1164F73" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ep35wl1JaQtqPEUWB9MRqGaxMfQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.Hoops3dStreamLib.dll" size="53248">
+      <assemblyIdentity name="Interop.Hoops3dStreamLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>ps5u9qp0LzY3mB/ONHUhTzsPS8s=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.MisumiInterfaceMold_JapLib.dll" size="7168">
+      <assemblyIdentity name="Interop.MisumiInterfaceMold_JapLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>dVZtxBbMi+0kfV9yELeUdIKdwbo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="22344">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>c1fQedr9HWOj66JVvsIVL4P4yzU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Client.exe.config" size="3239">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>FmZ34kRI0lS3avr+nF3BnIIxX+k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Angular_Pins_DataHandle_Jap.dll" size="285696">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>vPXg9pcHQgkmiU8K0yX41fxAFsU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Block_Core_Pins_DataHandle_Jap.dll" size="273408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>qGGFZ1vQbBL034LpJT8spEgfb6E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Center_Pins_Without_Taper_DataHandle_Jap.dll" size="2126848">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xeBvM3/MulYryuT54Cx7gSwRWpU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Coil_Springs_DataHandle_Jap.dll" size="1903616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>WjaO4gRqEm9HVYZjYwGJjLFQOQs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Components_Of_Die_Casting_DataHandle_Jap.dll" size="2034176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>y0zmCD8sBcBl8GraHfjt/ahTQKw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Components_Of_Large_Mold_DataHandle_Jap.dll" size="1958912">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2Ov4X1DIiD76oVw/4dFxzdUcpo0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Cooling_Components_Two_DataHandle_Jap.dll" size="1908224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>VTMSxr2QEpyhl9UOKk6xkUkEFpc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Core_Pins_Without_Taper_DataHandle_Jap.dll" size="343040">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>SL5/eBdKOOk50tDhFSWTqxc+lwA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Date_Marked_Pin_Sets_DataHandle_Jap.dll" size="236032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>7ltC4Jvf7NJTe3Nz0GNUBfld8jI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Ejector_Leader_Components_DataHandle_Jap.dll" size="276992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Xlgxil1zFjRjg3yAHyLk+KvpgO8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Ejector_Sleeves_Datahandle_Jap.dll" size="2135552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>eAwQUogPpFV521LTQIbUEDN5TDA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\ExpressionMold_Jap.dll" size="2011136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>JFtvnKhJk0Mt0zQB00fJ0AxY/0I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Guide_Components_DataHandle_Jap.dll" size="265216">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>LFmjt/bzWpKqzKeSnTFaNDeuEgI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Guide_Rails_DataHandle_Jap.dll" size="289280">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wCPI8NGjzEhOcPsERyP3D+gqmc0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Heat_Insulation_Sheets_DataHandle_Jap.dll" size="245248">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>k+t9AkHoURBpjwBTrcMHHmjowzU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Heating_Compoents_DataHandle_Jap.dll" size="236032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>HQsqR3FvhikpyorLXVDT//2n1FI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Middle_Shoulder_Ejector_Pins_DataHandle_Jap.dll" size="2013696">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>D4XEy5pj40cnGaDuwGYVG7R4fvQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\MisumiDataHandleMold_Jap.dll" size="1907200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>xX46il++MShlauaePtMGQfqVleM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\MisumiInterfaceMold_Jap.ocx" size="3393536">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OFfa7poBRUaXxVt+IDJ5TrEWdk4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Mold_Accessories_DataHandle_Jap.dll" size="245760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>o/6+LW6lYRdhORwblanzWiIem9k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Mold_Opening_Controllers_DataHandle_Jap.dll" size="251392">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>9WR6+jm0bW0I07kqXldsz6lSAFs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Pin-Point_Gate_Bushings_DataHandle_Jap.dll" size="274944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>n8SeJmt7faqbrN2z5TjFbBk7fcc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Positioning_Components_DataHandle_Jap.dll" size="275968">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>DcYxTkOcfmqs7dQ90ybaqq8ftL4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Rectangular_Ejector_Pins_DataHandle_Jap.dll" size="2048000">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4oL18wIXrbZj2pNQUYlSO0X2f+4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\RSR_Core_Pins_DataHandle_Jap.dll" size="2028544">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>0394zXB/A4exRUyRSkmK6qTImOs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\RunnerLock_Pins_DataHandle_Jap.dll" size="269824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>TAN5xMBhXW/LC4vkEIEtwvY4YHU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Sheel_Plates_DataHandle_Jap.dll" size="1906176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>uqBCv5mXSmMNzID2NLd0NLZEsoU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Slide_Core_Units_DataHandle_Jap.dll" size="262656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>MxsJfXHehFNL4XHujSFNOfXo0M8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Sprue_Bushing_And_Locating_Rings_DataHandle_Jap.dll" size="2581504">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>mhL9QihTVvhpwBix84jC5uhogmo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Stepped_Center_Pins_DataHandle_Jap.dll" size="2066432">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>4aWpSPycbDLiBzj4KSRaA7DsMGE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Stepped_Core_Pins_DataHandle_Jap.dll" size="347136">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2BtZDjzsYDhJiHB3QbtNeJBUaMA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Stepped_Ejector_Pins_DataHandle.dll" size="316928">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>YF2lvS6R+YFAZsLN/Wp+kdToI+w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Stepped_Ejector_Pins_DataHandle_Jap.dll" size="2118656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>g9rO/Dw3vAwvMftBKay+b6/vWYM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Straight_Center_Pins_DataHandle_Jap.dll" size="2050048">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5BRkuHBft+USqKkFMG5SuMQlH5Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Straight_Core_Pins_DataHandle_Jap.dll" size="342528">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>OdLp74j58gLQBD9rrqqT/eAeH9Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="DataHandle\Straight_Ejector_Pins_Datahandle_Jap.dll" size="2101760">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>wKa3QiWJ1Ort0ZqrhfSG03mxIKk=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

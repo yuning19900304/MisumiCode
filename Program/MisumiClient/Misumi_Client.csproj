@@ -1,0 +1,1105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6A7D42F6-73B4-4C7F-8BAA-A24B3796783E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Misumi_Client</RootNamespace>
+    <AssemblyName>Misumi_Client</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>A19C6B62C76879A4A3FB664B51AEE5BD0AA95E52</ManifestCertificateThumbprint>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <TargetFrameworkProfile />
+    <ApplicationIcon>GMW.ico</ApplicationIcon>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+    <PublishUrl>D:\mex\Application\Client\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://mex.misumi-ec.com/mex/STG/Application/Client/</InstallUrl>
+    <UpdateUrl>http://mex.misumi-ec.com/mex/STG/Application/Client/</UpdateUrl>
+    <TargetCulture>ja-JP</TargetCulture>
+    <ProductName>MISUMI CAD Download and 3D Preview application</ProductName>
+    <PublisherName>MISUMI</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationVersion>3.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>false</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\SharpZipLib_0860_Bin\net-20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\SpecialComm.cs" />
+    <Compile Include="FormType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormType.Designer.cs">
+      <DependentUpon>FormType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\MoldForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\MoldForm.designer.cs">
+      <DependentUpon>MoldForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\CADInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\CADInfo.designer.cs">
+      <DependentUpon>CADInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\CommonHelper.cs" />
+    <Compile Include="Common\CreateZip.cs" />
+    <Compile Include="Common\GetQueryString.cs" />
+    <Compile Include="Mold\HIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\HIP.designer.cs">
+      <DependentUpon>HIP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\HIP2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\HIP2.designer.cs">
+      <DependentUpon>HIP2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\HIP3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\HIP3.designer.cs">
+      <DependentUpon>HIP3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\KMB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\KMB.designer.cs">
+      <DependentUpon>KMB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\KMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\KMS.designer.cs">
+      <DependentUpon>KMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\LanguageManager.cs" />
+    <Compile Include="Mold\MessageForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\MessageForm.designer.cs">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\MN10L.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\MN10L.designer.cs">
+      <DependentUpon>MN10L.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\MNT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\MNT.designer.cs">
+      <DependentUpon>MNT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ModelObject.cs" />
+    <Compile Include="Mold\NXDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\NXDesc.designer.cs">
+      <DependentUpon>NXDesc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\ProEDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\ProEDesc.designer.cs">
+      <DependentUpon>ProEDesc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\MoldSpecialHandle.cs" />
+    <Compile Include="PressSpecial\S2_10C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_10C.Designer.cs">
+      <DependentUpon>S2_10C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_10D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_10D.Designer.cs">
+      <DependentUpon>S2_10D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_5_7B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_5_7B.Designer.cs">
+      <DependentUpon>S2_5_7B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4E.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4E.Designer.cs">
+      <DependentUpon>S2_4E.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\PressSpecialHandle.cs" />
+    <Compile Include="PressSpecial\S2_11D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_11D.Designer.cs">
+      <DependentUpon>S2_11D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_12H.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_12H.Designer.cs">
+      <DependentUpon>S2_12H.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_18J.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_18J.Designer.cs">
+      <DependentUpon>S2_18J.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_3C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_3C.Designer.cs">
+      <DependentUpon>S2_3C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4A.Designer.cs">
+      <DependentUpon>S2_4A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4B.Designer.cs">
+      <DependentUpon>S2_4B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4C.Designer.cs">
+      <DependentUpon>S2_4C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_4D.Designer.cs">
+      <DependentUpon>S2_4D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_5B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_5B.Designer.cs">
+      <DependentUpon>S2_5B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_5D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_5D.Designer.cs">
+      <DependentUpon>S2_5D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_6A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_6A.Designer.cs">
+      <DependentUpon>S2_6A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_6C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_6C.Designer.cs">
+      <DependentUpon>S2_6C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_7B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_7B.Designer.cs">
+      <DependentUpon>S2_7B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_7L.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_7L.Designer.cs">
+      <DependentUpon>S2_7L.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_8B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_8B.Designer.cs">
+      <DependentUpon>S2_8B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_8C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_8C.Designer.cs">
+      <DependentUpon>S2_8C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_8L.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_8L.Designer.cs">
+      <DependentUpon>S2_8L.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_4A.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_4A.Designer.cs">
+      <DependentUpon>S3_4A.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S27_29K.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S27_29K.Designer.cs">
+      <DependentUpon>S27_29K.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Press\PressLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Press\PressLoad.designer.cs">
+      <DependentUpon>PressLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Press\PressForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Press\PressForm.designer.cs">
+      <DependentUpon>PressForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\RCPNZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\RCPNZ.designer.cs">
+      <DependentUpon>RCPNZ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.designer.cs">
+      <DependentUpon>StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\MoldLoad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\MoldLoad.designer.cs">
+      <DependentUpon>MoldLoad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mold\TNP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mold\TNP.designer.cs">
+      <DependentUpon>TNP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WaitBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitBox.designer.cs">
+      <DependentUpon>WaitBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\MoldWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormType.resx">
+      <DependentUpon>FormType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\MoldForm.resx">
+      <DependentUpon>MoldForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\CADInfo.resx">
+      <DependentUpon>CADInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\HIP.resx">
+      <DependentUpon>HIP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\HIP2.resx">
+      <DependentUpon>HIP2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\HIP3.resx">
+      <DependentUpon>HIP3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\KMB.resx">
+      <DependentUpon>KMB.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\KMS.resx">
+      <DependentUpon>KMS.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\MessageForm.resx">
+      <DependentUpon>MessageForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\MN10L.resx">
+      <DependentUpon>MN10L.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\MNT.resx">
+      <DependentUpon>MNT.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\NXDesc.resx">
+      <DependentUpon>NXDesc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\ProEDesc.resx">
+      <DependentUpon>ProEDesc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_10C.resx">
+      <DependentUpon>S2_10C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_10D.resx">
+      <DependentUpon>S2_10D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_4E.resx">
+      <DependentUpon>S2_4E.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_5_7B.resx">
+      <DependentUpon>S2_5_7B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_11D.resx">
+      <DependentUpon>S2_11D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_12H.resx">
+      <DependentUpon>S2_12H.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_18J.resx">
+      <DependentUpon>S2_18J.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_3C.resx">
+      <DependentUpon>S2_3C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_4A.resx">
+      <DependentUpon>S2_4A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_4B.resx">
+      <DependentUpon>S2_4B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_4C.resx">
+      <DependentUpon>S2_4C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_4D.resx">
+      <DependentUpon>S2_4D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_5B.resx">
+      <DependentUpon>S2_5B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_5D.resx">
+      <DependentUpon>S2_5D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_6A.resx">
+      <DependentUpon>S2_6A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_6C.resx">
+      <DependentUpon>S2_6C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_7B.resx">
+      <DependentUpon>S2_7B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_7L.resx">
+      <DependentUpon>S2_7L.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_8B.resx">
+      <DependentUpon>S2_8B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_8C.resx">
+      <DependentUpon>S2_8C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_8L.resx">
+      <DependentUpon>S2_8L.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_4A.resx">
+      <DependentUpon>S3_4A.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S27_29K.resx">
+      <DependentUpon>S27_29K.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Press\PressLoad.resx">
+      <DependentUpon>PressLoad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Press\PressForm.resx">
+      <DependentUpon>PressForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\RCPNZ.resx">
+      <DependentUpon>RCPNZ.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\MoldLoad.resx">
+      <DependentUpon>MoldLoad.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mold\TNP.resx">
+      <DependentUpon>TNP.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WaitBox.resx">
+      <DependentUpon>WaitBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Web References\PressWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <None Include="Web References\MoldWebService\MisumiWebService.wsdl" />
+    <None Include="Web References\MoldWebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxHoops3dStreamLib">
+      <Guid>{0E162B3B-5F56-47F4-9E22-3CCF648FDE08}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxMisumiInterfaceMold_Jap_WebLib">
+      <Guid>{6ACEA3F6-B8C8-48AD-BADC-5FC5D428B31E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxMisumiInterface_GPL_WebLib">
+      <Guid>{96D44969-B414-4BA6-A895-70B13E274FD2}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="Hoops3dStreamLib">
+      <Guid>{0E162B3B-5F56-47F4-9E22-3CCF648FDE08}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MisumiInterfaceMold_Jap_WebLib">
+      <Guid>{6ACEA3F6-B8C8-48AD-BADC-5FC5D428B31E}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MisumiInterface_GPL_WebLib">
+      <Guid>{96D44969-B414-4BA6-A895-70B13E274FD2}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Language.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="stdole">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Exclude</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3DView\MISUMI_3DVIEW.dll" />
+    <Content Include="Images\CHS\PCAD_PlDesc.jpg" />
+    <Content Include="Images\CHT\PCAD_PlDesc.jpg" />
+    <Content Include="Images\EN\PCAD_PlDesc.jpg" />
+    <Content Include="Images\JPN\PCAD_PlDesc.jpg" />
+    <Content Include="Images\KOR\PCAD_PlDesc.jpg" />
+    <Content Include="Images\TAI\PCAD_PlDesc.jpg" />
+    <Content Include="MoldHandle\Angular_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Block_Core_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Center_Pins_Without_Taper_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Coil_Springs_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Components_Of_Die_Casting_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Components_Of_Large_Mold_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Cooling_Components_Two_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Core_Pins_Without_Taper_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Date_Marked_Pin_Sets_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Ejector_Leader_Components_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Ejector_Sleeves_Datahandle_Jap.dll" />
+    <Content Include="MoldHandle\ExpressionMold_Jap.dll" />
+    <Content Include="MoldHandle\Guide_Components_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Guide_Rails_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Heating_Compoents_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Heat_Insulation_Sheets_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Middle_Shoulder_Ejector_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\MisumiDataHandleMold_Jap.dll" />
+    <Content Include="MoldHandle\MisumiInterfaceMold_Jap_Web.ocx" />
+    <Content Include="MoldHandle\Mold_Accessories_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Mold_Opening_Controllers_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Pin-Point_Gate_Bushings_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Positioning_Components_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Rectangular_Ejector_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\RSR_Core_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\RunnerLock_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Sheel_Plates_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Slide_Core_Units_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Sprue_Bushing_And_Locating_Rings_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Stepped_Center_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Stepped_Core_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Stepped_Ejector_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Straight_Center_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Straight_Core_Pins_DataHandle_Jap.dll" />
+    <Content Include="MoldHandle\Straight_Ejector_Pins_Datahandle_Jap.dll" />
+    <Content Include="MoldHandle\TextInput_Jap.dll" />
+    <Content Include="MoldHandle\UILanguage_jap.dll" />
+    <Content Include="Files\CADInfo_CHS.txt" />
+    <Content Include="Files\CADInfo_CHT.txt" />
+    <Content Include="Files\CADInfo_EN.txt" />
+    <Content Include="Files\CADInfo_JPN.txt" />
+    <Content Include="Files\CADInfo_KOR.txt" />
+    <Content Include="Files\CADInfo_TAI.txt" />
+    <Content Include="GMW.ico" />
+    <Content Include="Images\CHS\2D.jpg" />
+    <Content Include="Images\CHS\2D_on.jpg" />
+    <Content Include="Images\CHS\3D.jpg" />
+    <Content Include="Images\CHS\3D_on.jpg" />
+    <Content Include="Images\CHS\Add.jpg" />
+    <Content Include="Images\CHS\Add_on.jpg" />
+    <Content Include="Images\CHS\Back.jpg" />
+    <Content Include="Images\CHS\CAD.jpg" />
+    <Content Include="Images\CHS\CAD_on.jpg" />
+    <Content Include="Images\CHS\CAD_PlDesc.jpg" />
+    <Content Include="Images\CHS\Copy.jpg" />
+    <Content Include="Images\CHS\Create.jpg" />
+    <Content Include="Images\CHS\EC.jpg" />
+    <Content Include="Images\CHS\EC_on.jpg" />
+    <Content Include="Images\CHS\Help.jpg" />
+    <Content Include="Images\CHS\Next.jpg" />
+    <Content Include="Images\CHS\Photo.jpg" />
+    <Content Include="Images\CHS\Photo_on.jpg" />
+    <Content Include="Images\CHS\T.jpg" />
+    <Content Include="Images\CHS\T_on.jpg" />
+    <Content Include="Images\CHT\2D.jpg" />
+    <Content Include="Images\CHT\2D_on.jpg" />
+    <Content Include="Images\CHT\3D.jpg" />
+    <Content Include="Images\CHT\3D_on.jpg" />
+    <Content Include="Images\CHT\Add.jpg" />
+    <Content Include="Images\CHT\Add_on.jpg" />
+    <Content Include="Images\CHT\Back.jpg" />
+    <Content Include="Images\CHT\CAD.jpg" />
+    <Content Include="Images\CHT\CAD_on.jpg" />
+    <Content Include="Images\CHT\CAD_PlDesc.jpg" />
+    <Content Include="Images\CHT\Copy.jpg" />
+    <Content Include="Images\CHT\Create.jpg" />
+    <Content Include="Images\CHT\EC.jpg" />
+    <Content Include="Images\CHT\EC_on.jpg" />
+    <Content Include="Images\CHT\Help.jpg" />
+    <Content Include="Images\CHT\Next.jpg" />
+    <Content Include="Images\CHT\Photo.jpg" />
+    <Content Include="Images\CHT\Photo_on.jpg" />
+    <Content Include="Images\CHT\T.jpg" />
+    <Content Include="Images\CHT\T_on.jpg" />
+    <Content Include="Images\EN\2D.jpg" />
+    <Content Include="Images\EN\2D_on.jpg" />
+    <Content Include="Images\EN\3D.jpg" />
+    <Content Include="Images\EN\3D_on.jpg" />
+    <Content Include="Images\EN\Add.jpg" />
+    <Content Include="Images\EN\Add_on.jpg" />
+    <Content Include="Images\EN\Back.jpg" />
+    <Content Include="Images\EN\CAD.jpg" />
+    <Content Include="Images\EN\CAD_on.jpg" />
+    <Content Include="Images\EN\CAD_PlDesc.jpg" />
+    <Content Include="Images\EN\Copy.jpg" />
+    <Content Include="Images\EN\Create.jpg" />
+    <Content Include="Images\EN\EC.jpg" />
+    <Content Include="Images\EN\EC_on.jpg" />
+    <Content Include="Images\EN\Help.jpg" />
+    <Content Include="Images\EN\Next.jpg" />
+    <Content Include="Images\EN\Photo.jpg" />
+    <Content Include="Images\EN\Photo_on.jpg" />
+    <Content Include="Images\EN\T.jpg" />
+    <Content Include="Images\EN\T_on.jpg" />
+    <Content Include="Images\JPN\2D.jpg" />
+    <Content Include="Images\JPN\2D_on.jpg" />
+    <Content Include="Images\JPN\3D.jpg" />
+    <Content Include="Images\JPN\3D_on.jpg" />
+    <Content Include="Images\JPN\Add.jpg" />
+    <Content Include="Images\JPN\Add_on.jpg" />
+    <Content Include="Images\JPN\Back.jpg" />
+    <Content Include="Images\JPN\CAD.jpg" />
+    <Content Include="Images\JPN\CAD_on.jpg" />
+    <Content Include="Images\JPN\CAD_PlDesc.jpg" />
+    <Content Include="Images\JPN\Copy.jpg" />
+    <Content Include="Images\JPN\Create.jpg" />
+    <Content Include="Images\JPN\EC.jpg" />
+    <Content Include="Images\JPN\EC_on.jpg" />
+    <Content Include="Images\JPN\Help.jpg" />
+    <Content Include="Images\JPN\Next.jpg" />
+    <Content Include="Images\JPN\Photo.jpg" />
+    <Content Include="Images\JPN\Photo_on.jpg" />
+    <Content Include="Images\JPN\T.jpg" />
+    <Content Include="Images\JPN\T_on.jpg" />
+    <Content Include="Images\KOR\2D.jpg" />
+    <Content Include="Images\KOR\2D_on.jpg" />
+    <Content Include="Images\KOR\3D.jpg" />
+    <Content Include="Images\KOR\3D_on.jpg" />
+    <Content Include="Images\KOR\Add.jpg" />
+    <Content Include="Images\KOR\Add_on.jpg" />
+    <Content Include="Images\KOR\Back.jpg" />
+    <Content Include="Images\KOR\CAD.jpg" />
+    <Content Include="Images\KOR\CAD_on.jpg" />
+    <Content Include="Images\KOR\CAD_PlDesc.jpg" />
+    <Content Include="Images\KOR\Copy.jpg" />
+    <Content Include="Images\KOR\Create.jpg" />
+    <Content Include="Images\KOR\EC.jpg" />
+    <Content Include="Images\KOR\EC_on.jpg" />
+    <Content Include="Images\KOR\Help.jpg" />
+    <Content Include="Images\KOR\Next.jpg" />
+    <Content Include="Images\KOR\Photo.jpg" />
+    <Content Include="Images\KOR\Photo_on.jpg" />
+    <Content Include="Images\KOR\T.jpg" />
+    <Content Include="Images\KOR\T_on.jpg" />
+    <Content Include="Images\Misumi.jpg" />
+    <Content Include="Images\TAI\2D.jpg" />
+    <Content Include="Images\TAI\2D_on.jpg" />
+    <Content Include="Images\TAI\3D.jpg" />
+    <Content Include="Images\TAI\3D_on.jpg" />
+    <Content Include="Images\TAI\Add.jpg" />
+    <Content Include="Images\TAI\Add_on.jpg" />
+    <Content Include="Images\TAI\Back.jpg" />
+    <Content Include="Images\TAI\CAD.jpg" />
+    <Content Include="Images\TAI\CAD_on.jpg" />
+    <Content Include="Images\TAI\CAD_PlDesc.jpg" />
+    <Content Include="Images\TAI\Copy.jpg" />
+    <Content Include="Images\TAI\Create.jpg" />
+    <Content Include="Images\TAI\EC.jpg" />
+    <Content Include="Images\TAI\EC_on.jpg" />
+    <Content Include="Images\TAI\Help.jpg" />
+    <Content Include="Images\TAI\Next.jpg" />
+    <Content Include="Images\TAI\Photo.jpg" />
+    <Content Include="Images\TAI\Photo_on.jpg" />
+    <Content Include="Images\TAI\T.jpg" />
+    <Content Include="Images\TAI\T_on.jpg" />
+    <Content Include="Language.xml" />
+    <Content Include="PressHandle\Ball_LockPunches_Dies_DataHandle.dll" />
+    <Content Include="PressHandle\Block_Dies_DataHandle.dll" />
+    <Content Include="PressHandle\Block_Punches_DataHandle.dll" />
+    <Content Include="PressHandle\Button_Dies_DataHandle.dll" />
+    <Content Include="PressHandle\CAM_Unit_Datahandle.dll" />
+    <Content Include="PressHandle\CarbideButtonDies_DataHandle.dll" />
+    <Content Include="PressHandle\CarbidePunches_DataHandle.dll" />
+    <Content Include="PressHandle\Carbide_Block_Dies_DataHandle.dll" />
+    <Content Include="PressHandle\Carbide_Block_Punches_DataHandle.dll" />
+    <Content Include="PressHandle\Carbide_Pilot_Punches_DataHandle.dll" />
+    <Content Include="PressHandle\Coil_Springs_DataHandle.dll" />
+    <Content Include="PressHandle\Components_DataHandle.dll" />
+    <Content Include="PressHandle\Components_For_Automotive_Dies_Datahandle.dll" />
+    <Content Include="PressHandle\Components_For_Guide_Lifters_And_Material_Guiding_DataHandle.dll" />
+    <Content Include="PressHandle\Components_For_Misfeed_Sensors_DataHandle.dll" />
+    <Content Include="PressHandle\Conveyence_Components_For_Automotive_Dies_DataHandle.dll" />
+    <Content Include="PressHandle\Expression.dll" />
+    <Content Include="PressHandle\Finished_Plates_Blocks_DataHandle.dll" />
+    <Content Include="PressHandle\Gas_Spring_Linked_System_DataHandle.dll" />
+    <Content Include="PressHandle\Guide_Post_And_Bushings_For_Die_Sets_DataHandle.dll" />
+    <Content Include="PressHandle\Guiding_Components_For_Automotive_Dies_DataHandle.dll" />
+    <Content Include="PressHandle\Holder_Guide_Post_Sets_DataHandle.dll" />
+    <Content Include="PressHandle\InputTextForming.dll" />
+    <Content Include="PressHandle\Inspection_Jigs_And_Fixtures_DataHandle.dll" />
+    <Content Include="PressHandle\Locating_Components_For_Automotive_Dies_DataHandle.dll" />
+    <Content Include="PressHandle\MisumiDataHandle.dll" />
+    <Content Include="PressHandle\MisumiInterface_GPL_Web.ocx" />
+    <Content Include="PressHandle\PilotPunches_DataHandle.dll" />
+    <Content Include="PressHandle\PrecisionPunchesDies_DataHandle.dll" />
+    <Content Include="PressHandle\PunchesDiesForForming_DataHandle.dll" />
+    <Content Include="PressHandle\Punches_DataHandle.dll" />
+    <Content Include="PressHandle\Punch_Guide_Bushings_DataHandle.dll" />
+    <Content Include="PressHandle\SpecialShapePunchesandDies_DataHandle.dll" />
+    <Content Include="PressHandle\Stripper_Guide_Pins_And_Bushings_DataHandle.dll" />
+    <Content Include="PressHandle\UILanguage.dll" />
+    <Content Include="PressHandle\Urethane_Spring_DataHandle.dll" />
+    <Content Include="Resources\loading.gif" />
+    <Content Include="Resources\Misumi.jpg" />
+    <Content Include="3DView\setting.ini" />
+    <None Include="authcode.pfx" />
+    <None Include="Web References\PressWebService\GlobalPressWebService.disco" />
+    <Compile Include="Common\HttpWeb.cs" />
+    <Compile Include="Common\WebServiceHelper.cs" />
+    <Compile Include="PressSpecial\S27_28K.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S27_28K.Designer.cs">
+      <DependentUpon>S27_28K.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_5_8_9_11_12_14_18J.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_5_8_9_11_12_14_18J.Designer.cs">
+      <DependentUpon>S2_5_8_9_11_12_14_18J.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_10D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_10D.Designer.cs">
+      <DependentUpon>S3_10D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_11D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_11D.Designer.cs">
+      <DependentUpon>S3_11D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_28K.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_28K.Designer.cs">
+      <DependentUpon>S3_28K.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_29K.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_29K.Designer.cs">
+      <DependentUpon>S3_29K.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_4B.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_4B.Designer.cs">
+      <DependentUpon>S3_4B.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_9D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_9D.Designer.cs">
+      <DependentUpon>S3_9D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S5_7_8C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S5_7_8C.Designer.cs">
+      <DependentUpon>S5_7_8C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S5_7_10C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S5_7_10C.Designer.cs">
+      <DependentUpon>S5_7_10C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S6_7D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S6_7D.Designer.cs">
+      <DependentUpon>S6_7D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\SpunchD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\SpunchD.Designer.cs">
+      <DependentUpon>SpunchD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\SpunchD_L.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\SpunchD_L.Designer.cs">
+      <DependentUpon>SpunchD_L.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S2_3_4E.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S2_3_4E.Designer.cs">
+      <DependentUpon>S2_3_4E.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\SpunchL_R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\SpunchL_R.Designer.cs">
+      <DependentUpon>SpunchL_R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\SA2_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\SA2_4.Designer.cs">
+      <DependentUpon>SA2_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_28K_T.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_28K_T.Designer.cs">
+      <DependentUpon>S3_28K_T.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_28K_C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_28K_C.Designer.cs">
+      <DependentUpon>S3_28K_C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\S3_28K_CP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\S3_28K_CP.Designer.cs">
+      <DependentUpon>S3_28K_CP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PressSpecial\SRGBL.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PressSpecial\SRGBL.Designer.cs">
+      <DependentUpon>SRGBL.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="PressSpecial\S27_28K.resx">
+      <DependentUpon>S27_28K.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_5_8_9_11_12_14_18J.resx">
+      <DependentUpon>S2_5_8_9_11_12_14_18J.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_10D.resx">
+      <DependentUpon>S3_10D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_11D.resx">
+      <DependentUpon>S3_11D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_28K.resx">
+      <DependentUpon>S3_28K.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_29K.resx">
+      <DependentUpon>S3_29K.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_4B.resx">
+      <DependentUpon>S3_4B.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_9D.resx">
+      <DependentUpon>S3_9D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S5_7_8C.resx">
+      <DependentUpon>S5_7_8C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S5_7_10C.resx">
+      <DependentUpon>S5_7_10C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S6_7D.resx">
+      <DependentUpon>S6_7D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\SpunchD.resx">
+      <DependentUpon>SpunchD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\SpunchD_L.resx">
+      <DependentUpon>SpunchD_L.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S2_3_4E.resx">
+      <DependentUpon>S2_3_4E.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\SpunchL_R.resx">
+      <DependentUpon>SpunchL_R.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\SA2_4.resx">
+      <DependentUpon>SA2_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_28K_T.resx">
+      <DependentUpon>S3_28K_T.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_28K_C.resx">
+      <DependentUpon>S3_28K_C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\S3_28K_CP.resx">
+      <DependentUpon>S3_28K_CP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PressSpecial\SRGBL.resx">
+      <DependentUpon>SRGBL.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Web References\MoldWebService\MisumiWebService.disco" />
+    <None Include="Web References\PressWebService\GlobalPressWebService.wsdl" />
+    <None Include="Web References\PressWebService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://mex.misumi-ec.com/mex/STG/GMW/GMWService/MisumiWebservice.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\MoldWebService\</RelPath>
+      <UpdateFromURL>http://mex.misumi-ec.com/mex/STG/GMW/GMWService/MisumiWebservice.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Client_MisumiService_Service1</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://mex.misumi-ec.com/mex/STG/GPW/GPWService/GlobalPressWebService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\PressWebService\</RelPath>
+      <UpdateFromURL>http://mex.misumi-ec.com/mex/STG/GPW/GPWService/GlobalPressWebService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Misumi_Client_PressWebService_GlobalPressWebService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

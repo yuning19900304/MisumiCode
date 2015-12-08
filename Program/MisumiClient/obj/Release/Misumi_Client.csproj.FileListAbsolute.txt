@@ -1,0 +1,960 @@
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\Misumi_Client.exe.config
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\Misumi_Client.exe.manifest
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\Misumi_Client.application
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\Misumi_Client.exe
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\Misumi_Client.XmlSerializers.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\Misumi_Client.pdb
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.AppFrm.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.CADInfo.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.HIP.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.HIP2.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.HIP3.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.JWPK.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.KMB.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.KMS.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.M_FD_F.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.MN10L.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.MNT.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.NXDesc.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.ProEDesc.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.Properties.Resources.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.RCPNZForm.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.StartForm.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.StartLoad.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.TNP.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Client.WaitBox.resources
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Misumi_Client.TrustInfo.xml
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Misumi_Client.exe.manifest
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Misumi_Client.application
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Misumi_Client.exe
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Misumi_Client.pdb
+E:\MISUMI\Misumi Japanese\MisumiClient\Client\obj\Release\Misumi_Client.XmlSerializers.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\Misumi_Client.exe.config
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\Misumi_Client.exe.manifest
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\Misumi_Client.application
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\Misumi_Client.exe
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\Misumi_Client.pdb
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.AppFrm.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.CADInfo.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.HIP.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.HIP2.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.HIP3.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.JWPK.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.KMB.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.KMS.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.M_FD_F.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.MessageForm.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.MN10L.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.MNT.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.NXDesc.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.ProEDesc.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.Properties.Resources.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.RCPNZForm.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.StartForm.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.StartLoad.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.TNP.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.WaitBox.resources
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.TrustInfo.xml
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.exe.manifest
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.application
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.exe
+E:\MISUMI\Misumi Japanese\JMW\MisumiClient\Client\obj\Release\Misumi_Client.pdb
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\Misumi_Client.exe.config
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\Misumi_Client.exe.manifest
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\Misumi_Client.application
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\Misumi_Client.exe
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\Misumi_Client.pdb
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.AppFrm.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.CADInfo.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.HIP.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.HIP2.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.HIP3.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.JWPK.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.KMB.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.KMS.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.M_FD_F.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.MessageForm.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.MN10L.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.MNT.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.NXDesc.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.ProEDesc.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.Properties.Resources.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.RCPNZForm.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.StartForm.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.StartLoad.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.TNP.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.WaitBox.resources
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.TrustInfo.xml
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.exe.manifest
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.application
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.exe
+E:\MISUMI\Misumi Japanese\GMW\MisumiClient\Client\obj\Release\Misumi_Client.pdb
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\Misumi_Client.exe.config
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\Misumi_Client.exe.manifest
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\Misumi_Client.application
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\Misumi_Client.exe
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\Misumi_Client.pdb
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.AppFrm.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.CADInfo.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.HIP.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.HIP2.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.HIP3.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.KMB.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.KMS.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.MessageForm.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.MN10L.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.MNT.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.NXDesc.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.ProEDesc.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.Properties.Resources.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.RCPNZForm.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.StartForm.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.StartLoad.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.TNP.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.WaitBox.resources
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.TrustInfo.xml
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.exe.manifest
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.application
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.exe
+E:\MISUMI\Misumi Japanese\GMW\GMClient\Client\obj\Release\Misumi_Client.pdb
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\Misumi_Client.exe.config
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.exe
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.pdb
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\Misumi_Client.application
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\Misumi_Client.exe
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\Misumi_Client.pdb
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\ResolveAssemblyReference.cache
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4_6A.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4_12H.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7_8L.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.MRP.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7L.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.PBX.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_7D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+F:\MISUMI\Misumi Japanese\Program\MisumiClient\obj\Release\Misumi_Client.application
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\Misumi_Client.exe.config
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.exe
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.pdb
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\Misumi_Client.application
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\Misumi_Client.exe
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\Misumi_Client.pdb
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\ResolveAssemblyReference.cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_28K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD_L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3_4E.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchL_R.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SA2_4.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_T.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_CP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SRGBL.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.4\MisumiClient\obj\Release\Misumi_Client.application
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.exe.config
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.exe
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.pdb
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\ResolveAssemblyReference.cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_28K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD_L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3_4E.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchL_R.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SA2_4.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_T.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_CP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SRGBL.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.application
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.exe
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.pdb
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+D:\work\misimiMex\需要发的文件\代码\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.application
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.exe.config
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.application
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.exe
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\Misumi_Client.pdb
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\ResolveAssemblyReference.cache
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_28K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD_L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3_4E.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchL_R.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SA2_4.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_T.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_CP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SRGBL.resources
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.application
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.exe
+E:\misumi\需要发的文件\需要发的文件\代码\Program2015.9.7\Program2015.9.6\MisumiClient\obj\Release\Misumi_Client.pdb
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.exe.config
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.application
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.exe
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.pdb
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\ResolveAssemblyReference.cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_28K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD_L.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3_4E.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchL_R.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SA2_4.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_T.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_C.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_CP.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SRGBL.resources
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.application
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.exe
+D:\work\misimiMex\需要发的文件\代码\Program2015.11.06\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.pdb
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\ResolveAssemblyReference.cache
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_28K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD_L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3_4E.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchL_R.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SA2_4.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_T.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_CP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SRGBL.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.exe.config
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.application
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.exe
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\Misumi_Client.pdb
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.application
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.exe
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\Program2015.11.06\MisumiClient\obj\Release\Misumi_Client.pdb
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe.config
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.application
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.pdb
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\ResolveAssemblyReference.cache
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_28K.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD_L.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3_4E.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchL_R.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SA2_4.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_T.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_C.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_CP.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SRGBL.resources
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.application
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.exe
+D:\work\misimiMex\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.pdb
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe.config
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.exe
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.pdb
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\ResolveAssemblyReference.cache
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_28K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD_L.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3_4E.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchL_R.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SA2_4.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_T.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_C.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_CP.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SRGBL.resources
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.application
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Misumi_Client.pdb
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+E:\misumi\需要发的文件\需要发的文件\代码\ProgramNew\ProgramNew\MisumiClient\obj\Release\Misumi_Client.application
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe.config
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.csproj.ResolveComReference.cache
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.exe
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.pdb
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.FormType.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MoldForm.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.CADInfo.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP2.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.HIP3.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.KMB.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.KMS.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MessageForm.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MN10L.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MNT.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.NXDesc.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.ProEDesc.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10C.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_10D.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4E.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_7B.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_11D.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_12H.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_18J.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3C.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4A.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4B.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4C.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_4D.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5B.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5D.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6A.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_6C.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7B.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_7L.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8B.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8C.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_8L.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4A.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_29K.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Press.PressLoad.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Press.PressForm.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Properties.Resources.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.RCPNZ.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.StartForm.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.MoldLoad.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.Mold.TNP.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.WaitBox.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S27_28K.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_5_8_9_11_12_14_18J.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_10D.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_11D.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_29K.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_4B.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_9D.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_8C.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S5_7_10C.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S6_7D.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchD_L.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S2_3_4E.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SpunchL_R.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SA2_4.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_T.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_C.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.S3_28K_CP.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.PressSpecial.SRGBL.resources
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.csproj.GenerateResource.Cache
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe.manifest
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\Misumi_Client.application
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\Misumi_Client.exe
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\Misumi_Client.pdb
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\Interop.Hoops3dStreamLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\Interop.MisumiInterface_GPL_WebLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\AxInterop.Hoops3dStreamLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\bin\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Interop.Hoops3dStreamLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Interop.MisumiInterfaceMold_Jap_WebLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Interop.MisumiInterface_GPL_WebLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\AxInterop.Hoops3dStreamLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\AxInterop.MisumiInterfaceMold_Jap_WebLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\AxInterop.MisumiInterface_GPL_WebLib.dll
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.TrustInfo.xml
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.exe.manifest
+F:\MISUMI\ProgramNew\MisumiClient\obj\Release\Misumi_Client.application

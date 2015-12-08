@@ -1,0 +1,265 @@
+D:\Misum_iss\misumiDS\Client\bin\Debug\Client.exe.config
+D:\Misum_iss\misumiDS\Client\bin\Debug\Client.exe
+D:\Misum_iss\misumiDS\Client\bin\Debug\Client.pdb
+D:\Misum_iss\misumiDS\Client\obj\Debug\ResolveAssemblyReference.cache
+D:\Misum_iss\misumiDS\Client\obj\Debug\Client.Form1.resources
+D:\Misum_iss\misumiDS\Client\obj\Debug\Client.Properties.Resources.resources
+D:\Misum_iss\misumiDS\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+D:\Misum_iss\misumiDS\Client\obj\Debug\Client.exe
+D:\Misum_iss\misumiDS\Client\obj\Debug\Client.pdb
+D:\Misum_iss\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMoldLib.dll
+D:\Misum_iss\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+D:\Misum_iss\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+D:\Misum_iss\misumiDS\Client\bin\Debug\Interop.MisumiInterfaceMoldLib.dll
+D:\Misum_iss\misumiDS\Client\bin\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+D:\Misum_iss\misumiDS\Client\bin\Debug\Client.exe.manifest
+D:\Misum_iss\misumiDS\Client\bin\Debug\Client.application
+D:\Misum_iss\misumiDS\Client\obj\Debug\Client.exe.manifest
+D:\Misum_iss\misumiDS\Client\obj\Debug\Client.application
+D:\misumiDS\Client\bin\Debug\Client.exe.config
+D:\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMoldLib.dll
+D:\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+D:\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+D:\misumiDS\Client\obj\Debug\Client.exe
+D:\misumiDS\Client\obj\Debug\Client.pdb
+D:\misumiDS\Client\bin\Debug\Client.exe.manifest
+D:\misumiDS\Client\bin\Debug\Client.application
+D:\misumiDS\Client\bin\Debug\Client.exe
+D:\misumiDS\Client\bin\Debug\Client.pdb
+D:\misumiDS\Client\bin\Debug\Interop.MisumiInterfaceMoldLib.dll
+D:\misumiDS\Client\bin\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+D:\misumiDS\Client\obj\Debug\ResolveAssemblyReference.cache
+D:\misumiDS\Client\obj\Debug\Client.Form1.resources
+D:\misumiDS\Client\obj\Debug\Client.Properties.Resources.resources
+D:\misumiDS\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+D:\misumiDS\Client\obj\Debug\Client.exe.manifest
+D:\misumiDS\Client\obj\Debug\Client.application
+D:\misumiDS\Client\obj\Debug\Client.AppFrm.resources
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.exe.config
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.exe
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.pdb
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.AppFrm.resources
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.Form1.resources
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.exe.manifest
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.application
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.exe
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.pdb
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.exe.manifest
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.application
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMoldLib.dll
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\bin\Debug\Interop.MisumiInterfaceMoldLib.dll
+C:\Misumi\Misumi\misumiDS\misumiDS\Client\bin\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+C:\111上海作业\Misumi\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.exe.config
+C:\111上海作业\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+C:\111上海作业\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.exe
+C:\111上海作业\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.pdb
+C:\111上海作业\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMoldLib.dll
+C:\111上海作业\Misumi\Misumi\misumiDS\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\Client.exe.config
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\Client.exe.manifest
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\Client.application
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\Client.exe
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\Client.pdb
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\en\Client.resources.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\ja\Client.resources.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\Interop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\bin\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.AppFrm.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.Form1.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.Properties.Resources.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.AppFrm.en.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.AppFrm.ja.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\en\Client.resources.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\ja\Client.resources.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.exe.manifest
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.application
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.exe
+E:\MISUMI\Misumi\misumiDS\misumiDS.3.8\misumiDS\Client\obj\Debug\Client.pdb
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.exe.config
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Interop.AcroPDFLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\AxInterop.AcroPDFLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.AppFrm.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.Properties.Resources.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.WaitBox.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.en.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.ja.resources
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.exe.manifest
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.application
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.exe
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Client.pdb
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\en\Client.resources.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\ja\Client.resources.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Interop.AcroPDFLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Interop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\AxInterop.AcroPDFLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\AcroPDF.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\bin\Debug\Hoops3dStream.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\en\Client.resources.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\ja\Client.resources.dll
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.exe.manifest
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.application
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.exe
+E:\MISUMI\Misumi\misumiDS\misumiDS\Client\obj\Debug\Client.pdb
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Client.exe.config
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Client.exe.manifest
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Client.application
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Client.exe
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Client.pdb
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\en\Client.resources.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\ja\Client.resources.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Interop.AcroPDFLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Interop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Interop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\AxInterop.AcroPDFLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\AxInterop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\AcroPDF.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\bin\Debug\Hoops3dStream.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Interop.AcroPDFLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\AxInterop.AcroPDFLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.AppFrm.resources
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.resources
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.Properties.Resources.resources
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.StartForm.resources
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.WaitBox.resources
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.en.resources
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.ja.resources
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\en\Client.resources.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\ja\Client.resources.dll
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.exe.manifest
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.application
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.exe
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\Client.pdb
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\ResGen.read.1.tlog
+E:\MISUMI\Misumi\misumiClient\misumiDS\Client\obj\Debug\ResGen.write.1.tlog
+C:\Users\YuNing\Desktop\misumiDS\Client\bin\Debug\Client.exe.config
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Interop.Hoops3dStreamLib.dll
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMoldLib.dll
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\AxInterop.Hoops3dStreamLib.dll
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMoldLib.dll
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.exe
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.pdb
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.AppFrm.resources
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.resources
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.Properties.Resources.resources
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.StartForm.resources
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.WaitBox.resources
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.en.resources
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\Client.LocalResourceDeploy.ja.resources
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\ResGen.read.1.tlog
+C:\Users\YuNing\Desktop\misumiDS\Client\obj\Debug\ResGen.write.1.tlog
+E:\MISUMI\MisumiJapanese\misumiDS\Client\bin\Debug\Client.exe.config
+E:\MISUMI\MisumiJapanese\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\MISUMI\MisumiJapanese\misumiDS\Client\obj\Debug\Client.exe
+E:\MISUMI\MisumiJapanese\misumiDS\Client\obj\Debug\Client.pdb
+C:\Users\YuNing\Desktop\Client\bin\Debug\Client.exe.config
+C:\Users\YuNing\Desktop\Client\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\YuNing\Desktop\Client\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\YuNing\Desktop\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+C:\Users\YuNing\Desktop\Client\obj\Debug\Client.exe
+C:\Users\YuNing\Desktop\Client\obj\Debug\Client.pdb
+C:\Users\YuNing\Desktop\Client\obj\Debug\Interop.Hoops3dStreamLib.dll
+C:\Users\YuNing\Desktop\Client\obj\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\Client.exe.config
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Interop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\AxInterop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.exe
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.pdb
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.AppFrm.resources
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.Properties.Resources.resources
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.StartForm.resources
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.WaitBox.resources
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\ResGen.read.1.tlog
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\ResGen.write.1.tlog
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\Client.exe.manifest
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\Client.application
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\Client.exe
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\Client.pdb
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\Interop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\bin\Debug\AxInterop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.exe.manifest
+E:\MISUMI\Misumi Japanese\misumiDS\misumiDS06.26.03\Client\obj\Debug\Client.application
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\bin\Debug\Client.exe.config
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\Client.exe
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\Client.pdb
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\Client.AppFrm.resources
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\Client.Properties.Resources.resources
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\Client.StartForm.resources
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\Client.WaitBox.resources
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\ResGen.read.1.tlog
+E:\MISUMI\Misumi Japanese\misumiDS\MisumiClient\Client\obj\Debug\ResGen.write.1.tlog
+C:\Users\YuNing\Desktop\Client\obj\Debug\Interop.MisumiInterfaceMold_JapLib.dll
+C:\Users\YuNing\Desktop\Client\obj\Debug\AxInterop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\Client.exe.config
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\Client.exe.manifest
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\Client.application
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\Client.exe
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\Client.pdb
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\Interop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\bin\Debug\AxInterop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\ResolveAssemblyReference.cache
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Interop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Interop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\AxInterop.Hoops3dStreamLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\AxInterop.MisumiInterfaceMold_JapLib.dll
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.csproj.ResolveComReference.cache
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.AppFrm.resources
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.Properties.Resources.resources
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.StartForm.resources
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.WaitBox.resources
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\ResGen.read.1.tlog
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\ResGen.write.1.tlog
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.exe.manifest
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.application
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.exe
+E:\MISUMI\Misumi Japanese\misumiDS\Client\obj\Debug\Client.pdb
